@@ -1,0 +1,87 @@
+.watch {
+  border: 10px dashed #f0ecec;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+body {
+  background-color: #181818;
+}
+.time {
+  color: #733fed;
+  font-weight: bolder;
+}
+#hour {
+ font-size: 50px; 
+}
+#min {
+  font-size: 40px;
+}
+#sec {
+  font-size: 30px;
+}
+#msec {
+  font-size: 20px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  color: #fff;
+}
+.laps {
+  border: 7px dotted #733fed;
+  padding: 1rem;
+  display: flex;
+  margin: 3rem 20rem;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  color: #733fed;
+  visibility: hidden;
+}
+#laptext {
+  font-style: italic;
+  color: grey;
+  font-size: smaller;
+  margin: 0 2rem;
+  list-style-type: none;
+  
+}
+.btn2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+#btnclear{
+  background-color: #733fed;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  border-radius: 25px;
+  /* cursor: pointer; */
+  font-size: large;
+  transition: all 0.3s ease-in-out;
+  visibility: hidden;
+}
+#btnclear:hover{
+  background-color: #fff;
+  color: #733fed;
+  transform: scale(1.2);
+}
+
+ul li{
+  display: block;
+  padding-left: 1.5rem;
+}
